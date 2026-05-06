@@ -1,5 +1,5 @@
-import { createSession } from "@/lib/db";
-import { validateSessionInput } from "@/lib/validation";
+const { createSession } = require("@/lib/db");
+const { validateSessionInput } = require("@/lib/validation");
 
 export default function handler(req, res) {
   if (req.method !== "POST") {
