@@ -11,12 +11,14 @@ const pageStyle = {
 
 export default function NewSession() {
   return (
-    <main style={pageStyle}>
-      <h1>Add Session</h1>
+    <main className="container" style={{marginTop: '40px'}}>
+      <div className="header">
+        <h1>Add New Session</h1>
+        <Link href="/" className="btn" style={{padding: '8px 16px', fontSize: '14px'}}>
+          ← Back to Sessions
+        </Link>
+      </div>
       <SessionForm action="/api/sessions" />
-      <p style={{ marginTop: 20 }}>
-        <Link href="/">Back to sessions</Link>
-      </p>
     </main>
   );
 }
