@@ -1,0 +1,7 @@
+node_modules
+.next
+stretching.db
+*.db
+*.db-shm
+*.db-wal
+npm-debug.log*
