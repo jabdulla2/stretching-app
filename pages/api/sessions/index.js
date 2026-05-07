@@ -1,4 +1,4 @@
-const { createSession } = require("@/lib/db");
+const { createSession } = require("@/lib/db-json");
 const { validateSessionInput } = require("@/lib/validation");
 
 module.exports = function handler(req, res) {

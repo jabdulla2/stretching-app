@@ -1,4 +1,4 @@
-const { deleteSession, getSessionById } = require("@/lib/db");
+const { deleteSession, getSessionById } = require("@/lib/db-json");
 
 module.exports = function handler(req, res) {
   if (req.method !== "POST") {

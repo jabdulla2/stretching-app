@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getSessionById } from "@/lib/db";
+import { getSessionById } from "@/lib/db-json";
 import SessionForm from "@/components/SessionForm";
 
 export async function getServerSideProps({ params }) {

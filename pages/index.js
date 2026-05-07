@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAllSessions } from "@/lib/db";
+import { getAllSessions } from "@/lib/db-json";
 
 export async function getServerSideProps() {
   return {

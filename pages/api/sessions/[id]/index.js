@@ -1,4 +1,4 @@
-const { getSessionById, updateSession } = require("@/lib/db");
+const { getSessionById, updateSession } = require("@/lib/db-json");
 const { validateSessionInput } = require("@/lib/validation");
 
 module.exports = function handler(req, res) {
